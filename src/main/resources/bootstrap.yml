@@ -5,5 +5,10 @@
 #      name: config-service
 #  profiles:
 #    active: dev
+#encrypt:
+#  key: abcdefghijklmnopqrstuvwxyz0123456789
 encrypt:
-  key: abcdefghijklmnopqrstuvwxyz0123456789
+  key-store:
+    location: file:///${user.home}/Desktop/Work/keystore/apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
