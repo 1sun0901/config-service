@@ -18,7 +18,7 @@ spring:
           search-locations: file:///${user.home}/Desktop/Work/native-file-repo
         git:
 #          uri: file://C:\workspace\git-local-repo
-          uri: https://github.com/1sun0901/spring-cloud-config.git
+          uri: https://github.com/1sun0901/spring-cloud-config
 #          username: emuce@naver.com
 #          password: Dlantm3837!
 

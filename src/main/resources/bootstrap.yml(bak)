@@ -7,8 +7,8 @@
 #    active: dev
 #encrypt:
 #  key: abcdefghijklmnopqrstuvwxyz0123456789
-encrypt:
-  key-store:
-    location: file:///${user.home}/Desktop/Work/keystore/apiEncryptionKey.jks
-    password: test1234
-    alias: apiEncryptionKey
+#encrypt:
+#  key-store:
+#    location: file:///${user.home}/Desktop/Work/keystore/apiEncryptionKey.jks
+#    password: 1234
+#    alias: apiEncryptionKey
